@@ -9,5 +9,5 @@
 ## Tutorial Overview
 This tutorial will cover the following Topics:
 - [Getting Started with C#](./gettingstarted.md)
-- [Your first C# program](./First-C#-Program.md)
+- [Your first C# program](./First-Program.md)
 - [Basic Math Operations](./Basic-Math-Operations.md)
