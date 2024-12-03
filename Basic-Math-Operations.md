@@ -1,6 +1,7 @@
 # Basic Math Operations in C# 
 In this tutorial, we will cover the basic math operations that you can perform in C#. These operations include addition, subtraction, multiplication, and division. 
-## Addition 
+## _Addition_
+
 To perform addition, you simply use the `+` operator. 
 
  using System;
@@ -21,7 +22,8 @@ Console.WriteLine("Addition: " + num1 + " + " + num2 + " = " + result);
 
 Output: 10 + 5 = 15
 
-##Subtraction
+##_Subtraction_
+
 To perform subtraction, you use the - operator.
 
 csharp
@@ -46,7 +48,8 @@ namespace BasicMathOperations
 
 Subtraction: 10 - 5 = 5
 
-##Multiplication
+##_Multiplication_
+
 To perform multiplication, you use the * operator.
 
 
