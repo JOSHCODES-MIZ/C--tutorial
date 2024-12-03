@@ -8,28 +8,23 @@ To perform addition, you simply use the `+` operator.
  
 namespace BasicMathOperations
 
-  {
+ {
   
    class Program
-   
-  {
   
-   static void Main(string[] args)
-   
-   { 
+ {
+    static void Main(string[] args)
+    
+    {
+    
+        int num1 = 10;
+        
+        int num2 = 5;
+        
+        int result = num1 - num2;
 
-int num1 = 10;
-
-int num2 = 5;
-
-int result = num1 + num2;
-
-Console.WriteLine("Addition: " + num1 + " + " + num2 + " = " + result);
-
-         }
-         
-     }
-     
+        Console.WriteLine("Addition: " + num1 + " - " + num2 + " = " + result);
+    }
 }
 
 Output: 10 + 5 = 15
