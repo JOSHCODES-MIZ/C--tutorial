@@ -12,11 +12,14 @@ namespace BasicMathOperations
   {
    class Program
   {
-   static void Main(string[] args)
-{ 
+   static void Main(string[] args){ 
+
 int num1 = 10;
+
 int num2 = 5;
+
 int result = num1 + num2;
+
 Console.WriteLine("Addition: " + num1 + " + " + num2 + " = " + result);
          }
      }
@@ -37,9 +40,13 @@ namespace BasicMathOperations
     class Program
     {
         static void Main(string[] args)
+        
         {
+        
             int num1 = 10;
+            
             int num2 = 5;
+            
             int result = num1 - num2;
 
             Console.WriteLine("Subtraction: " + num1 + " - " + num2 + " = " + result);
@@ -60,12 +67,18 @@ using System;
 
 namespace BasicMathOperations
 {
+
     class Program
     {
+    
         static void Main(string[] args)
+        
         {
+        
             int num1 = 10;
+            
             int num2 = 5;
+            
             int result = num1 * num2;
 
             Console.WriteLine("Multiplication: " + num1 + " * " + num2 + " = " + result);
@@ -83,13 +96,19 @@ To perform division, you use the / operator. Be careful with division by zero, a
 using System;
 
 namespace BasicMathOperations
+
 {
+
     class Program
     {
         static void Main(string[] args)
+        
         {
+        
             int num1 = 10;
+            
             int num2 = 5;
+            
             int result = num1 / num2;
 
             Console.WriteLine("Division: " + num1 + " / " + num2 + " = " + result);
