@@ -6,13 +6,11 @@ To perform addition, you simply use the `+` operator.
 
  using System;
  
-namespace BasicMathOperations
+namespace BasicMathOperations;
 
- {
-  
-   class Program
-  
- {
+ class Program
+{
+
     static void Main(string[] args)
     
     {
@@ -21,11 +19,12 @@ namespace BasicMathOperations
         
         int num2 = 5;
         
-        int result = num1 - num2;
+        int result = num1 + num2;
 
-        Console.WriteLine("Addition: " + num1 + " - " + num2 + " = " + result);
+        Console.WriteLine("Addition: " + num1 + " * " + num2 + " = " + result);
     }
 }
+  
 
 Output: 10 + 5 = 15
 
