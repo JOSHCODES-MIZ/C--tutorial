@@ -4,15 +4,19 @@ In this tutorial, we will cover the basic math operations that you can perform i
 
 To perform addition, you simply use the `+` operator. 
 
-``csharp
-
  using System;
  
 namespace BasicMathOperations
+
   {
+  
    class Program
+   
   {
-   static void Main(string[] args){ 
+  
+   static void Main(string[] args)
+   
+   { 
 
 int num1 = 10;
 
@@ -31,13 +35,15 @@ Output: 10 + 5 = 15
 
 To perform subtraction, you use the - operator.
 
-``csharp
+
 
 using System;
 
 namespace BasicMathOperations
+
 {
     class Program
+    
     {
         static void Main(string[] args)
         
@@ -61,7 +67,7 @@ Subtraction: 10 - 5 = 5
 
 To perform multiplication, you use the * operator.
 
-''csharp
+
 
 using System;
 
