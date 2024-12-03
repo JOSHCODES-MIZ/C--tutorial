@@ -14,21 +14,3 @@ C# (pronounced "C-sharp") is a modern, object-oriented programming language deve
 
 Now you have a basic console application setup and ready to write your first C# program!
 
-## Your First C# Program
-
-In the `Program.cs` file, you will see something like this:
-
-```csharp
-using System;
-
-namespace HelloWorld
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
-}
-
